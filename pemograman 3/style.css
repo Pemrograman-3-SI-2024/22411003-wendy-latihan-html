@@ -1,0 +1,68 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+font-size: 15px;
+background-color: #c9cbcd;
+}
+/* id = #  (premery key)*/
+/* class = . */
+.title1 {
+    color: rgba(46, 87, 221, 0.745);
+}
+.my-button{
+    background-color: #3269e0;
+    border: none;
+    color: white;
+    /* atas kanan bawah kiri */
+    /* padding: 1em 4em 8em 12 em*/
+    /* padding-left: 2em */
+    padding: 0.8em 1.4em;
+    border-radius: 25px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;   
+    font-weight: 550;
+
+}
+.outline-btn{
+    border:  2px solid rgb(56, 140, 193);
+    padding: 0.7em 1.3em;
+    border-radius: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(56, 140, 193);
+    font-weight: 600;
+}
+.outline-btn:hover {
+    background-color: rgb(67, 67, 67);
+    color: #dfe4ef;
+    transform: translate( 120%,0%);
+}
+.my-table{
+    border: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.my-table th, td {
+    text-align: middle;
+    padding: 8px;
+}
+.my-table th{
+background-color: #000000;
+color: rgb(174, 174, 174);
+}
+.my-table tr:nth-child(even) {
+    background-color: #808080;
+  }
+.my-card {
+ width: 400px;
+ background-color: rgb(192, 186, 186);
+}
+.my-card .card-content {
+    padding: 1em 1em 0.5em 1em;
+}
+.my-card  .card-content .card-title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+.my-card  .card-content .card-title .card-subtitle {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 1000;
+
+}
