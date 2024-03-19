@@ -63,6 +63,8 @@ color: rgb(174, 174, 174);
 }
 .my-card  .card-content .card-title .card-subtitle {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: 1000;
+    font-weight: bold;
+    font-size: 20px;
+    
 
 }
